@@ -1,0 +1,41 @@
+@mixin box($colorOne,$colorTwo) {
+  li {
+      list-style: none;
+      a {
+          color: $colorOne;
+          &:hover {
+              color: $colorTwo;
+          }
+      }
+  }
+}
+
+.box1{
+.listUne{
+  @extend %box;
+}
+}
+
+.box2{
+.listDeux{
+  @include box(blue,lime);
+}
+}
+
+.box3{
+.listTrois{
+  @include box(yellow,grey);
+}
+}
+
+%box {
+  li {
+      list-style: none;
+      a {
+          color: red;
+          &:hover {
+              color: pink;
+          }
+      }
+  }
+}

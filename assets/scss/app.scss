@@ -1,0 +1,8 @@
+@import "headings";
+@import "colors";
+@import "liste";
+
+body{
+  background-color:$fond;
+  color:$texte;
+}
