@@ -1,4 +1,7 @@
 # SASS pour : Syntactically Awesome Style Sheets  
+# https://github.com/simplonco/initiationSASS
+# tuto en ligne : https://www.alsacreations.com/article/lire/1717-les-preprocesseurs-css-c-est-sensass.html
+
 
 SASS([site officiel](http://sass-lang.com/guide)) est un langage de feuilles de style en cascade (CSS) qui sera compilé pour obtenir du CSS.  
 
